@@ -1,0 +1,42 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 100%;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-area {
+    border: 2px solid black;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-container {
+    height: 3rem;
+}
+
+input:invalid {
+    border: 2px solid red;
+    box-shadow: 4px 4px 4px red;
+}

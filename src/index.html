@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Form Validation</title>
+    </head>
+    <body>
+        <div class="content-area">
+            <div class="error-container" id="required-error">
+
+            </div>
+            <form>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <div class="error-container" id="email-error"></div>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country">
+                <div class="error-container" id="country-error"></div>
+
+                <label for="zipcode">Zip code:</label>
+                <input type="text" id="zipcode" name="zipcode">
+                <div class="error-container" id="zip-error"></div>
+
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password">
+                <div class="error-container" id="password-error"></div>
+
+                <label for="passwordconf">Confirm password:</label>
+                <input type="text" id="passwordconf" name="passwordconf">
+                <div class="error-container" id="passconf-error"></div>
+
+                <button>Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
